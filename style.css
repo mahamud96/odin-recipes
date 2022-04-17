@@ -85,3 +85,17 @@ h3 .ingredients-title{
 .sub-heading{
     text-align: left;
 }
+
+img{
+    width: 32rem;
+    height: 18rem;
+}
+
+.homepage-menu{
+    background: #000000;
+    padding: 2rem;
+}
+
+.hompage-link{
+    padding-bottom: 2rem;
+}
