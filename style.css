@@ -1,0 +1,76 @@
+
+html {
+    font-size: 62.5%;
+} 
+
+a{
+    color:#cc9543;
+}
+a:hover{
+    color:#ffffff;
+
+}
+
+body{
+    background: gray;
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.page-menu{
+    background-color: #000000;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+     
+}
+
+.page-heading{
+    color: gray;
+    background: #000000;
+    padding: 2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.picture-section{
+    background: black;
+    color: #cc9543;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.ingredients-section{
+    background: black;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ingredients-title{
+    color: #b57412;
+    font-weight: 300;
+}
+.ingredients-text{
+    color: #cc9543;
+    text-align: left;
+    font-weight: 100;
+}
+
+.steps-section{
+    background: black;
+    padding: 2rem;
+}
+
+.steps-title{
+    color: #b57412;
+    font-weight: 300;
+}
+.steps-text{
+    color: #cc9543;
+    text-align: left;
+    font-weight: 100;
+}
