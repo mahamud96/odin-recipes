@@ -54,6 +54,13 @@ body{
     color: #b57412;
     font-weight: 300;
 }
+
+h3 .ingredients-title{
+    color: #b57412;
+    font-weight: 300;
+    text-align: left;
+}
+
 .ingredients-text{
     color: #cc9543;
     text-align: left;
@@ -73,4 +80,8 @@ body{
     color: #cc9543;
     text-align: left;
     font-weight: 100;
+}
+
+.sub-heading{
+    text-align: left;
 }
