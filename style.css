@@ -63,6 +63,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 
+    justify-content: space-around;
+
 }
 
 .ingredients-title{
@@ -108,18 +110,19 @@ img{
 
 .homepage-menu{
     background: #000000;
-    height: 100%;
-    padding: 25%;  
+    min-height: 100vh;  
     
-}
-
-.hompage-link{
-    padding-bottom: 2rem;
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 
     justify-content: center;
     align-items: center;
+    
+}
+
+.hompage-link{
+    padding-bottom: 2rem;
+
+    
 }
