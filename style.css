@@ -115,7 +115,7 @@ img{
     flex-direction: column;
     flex-wrap: nowrap;
 
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     
 }
