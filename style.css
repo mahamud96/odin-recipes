@@ -58,6 +58,11 @@ body{
     background: black;
     padding: 2rem;
     margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .ingredients-title{
@@ -103,24 +108,18 @@ img{
 
 .homepage-menu{
     background: #000000;
-    padding: 25%;
     height: 100%;
-    
-
-    display: block;
-    align-items: center;
-    justify-content: center;
-
-    position:relative;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    
+    padding: 25%;  
     
 }
 
 .hompage-link{
     padding-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
 }
