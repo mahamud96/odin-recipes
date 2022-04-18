@@ -1,10 +1,17 @@
-/* 
-1. Global Syles
 
-*/
+/* ------------------------------
+   Table of content
+
+   1. Global syles
+   2. Hompage
+   3. Recipe pages
+    3.1. Header and image section
+    3.2. Ingredients section
+    3.3. Steps section
+   ------------------------------ */
 
 /* ----------------
-   1. Global Styles
+   1. Global styles
    ---------------- */
 
 html {
@@ -26,6 +33,42 @@ body{
     text-align: center;
     min-height: 100vh;
 }
+
+img{
+    width: 32rem;
+    height: 18rem;
+}
+
+/* -----------
+   2. Homepage
+   ----------- */
+
+   .homepage-menu{
+    background: #000000;
+    min-height: 100vh;  
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hompage-link{
+    padding-bottom: 2rem;
+}
+
+/* ---------------
+   3. Recipe pages
+   --------------- */
+
+/* -----------------------------
+   3.1. Header and image section
+   ----------------------------- */
+
 .page-menu{
     background-color: #000000;
     text-transform: uppercase;
@@ -53,16 +96,14 @@ body{
     font-weight: 100;
 }
 
+/* ------------------------
+   3.2. Ingredients section
+   ------------------------ */
+
 .ingredients-section{
     background: black;
     padding: 2rem;
     margin-bottom: 1rem;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    justify-content: space-around;
 
 }
 
@@ -83,6 +124,10 @@ h3 .ingredients-title{
     font-weight: 100;
 }
 
+/* ------------------
+   3.3. Steps section
+   ------------------ */
+
 .steps-section{
     background: black;
     padding: 2rem;
@@ -102,25 +147,3 @@ h3 .ingredients-title{
     text-align: left;
 }
 
-img{
-    width: 32rem;
-    height: 18rem;
-}
-
-.homepage-menu{
-    background: #000000;
-    min-height: 100vh;  
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.hompage-link{
-    padding-bottom: 2rem;
-
-}
